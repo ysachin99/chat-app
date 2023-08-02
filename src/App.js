@@ -3,7 +3,7 @@ import { io } from 'socket.io-client';
 import './App.css';
 import Chat from './Chat';
 
-const socket = io.connect('http://localhost:4001')
+const socket = io.connect('https://chat-app-api-ixdo.onrender.com')
 
 function App() {
   const [ username,setUserame] = useState('');
